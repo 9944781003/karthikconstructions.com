@@ -15,7 +15,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: nodeveloper.in
-          username: karthik@nodeveloper.in
+          server: 103.93.16.51
+          username: karthik@karthikconstructions.com
           password: ${{ secrets.FTP_PWD }}
           port: 21
